@@ -33,11 +33,10 @@ First, clone the repo as follows:
 
 `https://github.com/ENate/spring-kafka-microservices-app.git`,
 
-Assuming all the technology stack listed above are installed, change to the main directory and run as follows:
+Assuming Docker and Docker composee installed, change to the main directory and run as follows:
 
-``` cd spring-kafka-microservices-app ``` and then do
+``` cd spring-kafka-microservices-app ``` and then
 
-``` mvn spring-boot:run ```
 
 To run all services, we used the Google docker build API ``` jib``` and run the services using
 
